@@ -1,0 +1,72 @@
+/* CSS styles for the page */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #40e0d0;
+  }
+  
+
+  
+  #visualization {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 300px;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  .bar {
+    width: 20px;
+    margin: 0 2px;
+   /* background-color: #3498db;*/
+   background-color: #eb4c42;
+  }
+  .btn{
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: greenyellow;
+    margin-top: 10px;
+    
+    font-size: 16px;
+  }
+  
+  .btn:hover {
+    background-color: #e0ffff;
+    transition: 0.1s;
+  }
+  
+.bottom{
+
+  padding-top: 10px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0px auto; 
+
+  width: 500px;
+  box-sizing: border-box; 
+
+  justify-content: center;
+  align-items: center; 
+  background-color:#40e0d0;
+
+  
+}
+.btnx {
+  position: relative;
+  align-content: center;
+  display: inline-block; 
+
+  
+  align-items: flex-start;
+  background-color: #e0ffff;
+  height: 35px;
+  width: 80px;
+  color: black;
+}  
+.btnx:hover{
+background-color: red;
+transition: 1s;
+
+
+}

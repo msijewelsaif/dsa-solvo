@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stack Operations</title>
+    <link rel="stylesheet" href="css/stack.css">
+</head>
+
+<body>
+    <div class="hero">
+        <div class="container">
+            <h1>Stack Operations</h1>
+            <p>
+                A stack is a linear data structure that follows the Last-In-First-Out (LIFO) principle. In a stack, elements are added and removed from the top. The most recently added item is the first to be removed.
+                Stacks are commonly used in various algorithms and applications, such as function call management, expression evaluation, and backtracking. The two primary operations on a stack are "push" to add an element and "pop" to remove the top element.
+            </p>
+
+            <div class="stack-operations">
+                <input type="number" id="element" placeholder="Enter element">
+                <button onclick="pushElement()" class="btn">Push</button>
+                <button onclick="popElement()" class="btn">Pop</button>
+                <div> <a href="stack.html"><button onclick="pushElement()" class="btn">Refresh</button></a></div>
+            </div>
+            <div class="output">
+                <h2>Stack:</h2>
+                <ul id="stack-list"></ul>
+
+                <section>
+
+                </section>
+            </div>
+        </div>
+    </div>
+    <section class="section">
+        <footer class="bottom">
+
+            <div class="pagecontrol">
+                <a href="home.html"><button class="btnx">Home</button></a>
+                <a href="sorting.html"><button class="btnx">Previous</button></a>
+                <a href="linearqueue.html"><button class="btnx">Next</button></a>
+            </div>
+        </footer>
+    </section>
+
+    <script src="js/stack.js"></script>
+</body>
+
+</html>

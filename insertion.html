@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Manipulation</title>
+    <link rel="stylesheet" href="css/insetion.css">
+</head>
+<body> <div class="hero">
+    <h1>Array Operation</h1>
+    <div class="container">
+        <label for="size">Enter the size of the array:</label>
+        <input type="number" id="size" placeholder="Enter size">
+        <button onclick="inputArraySize()" class="btn">Submit</button>
+        <div id="inputElements" style="display: none;">
+            <label for="elements">Enter elements:</label>
+            <input type="text" id="elements" placeholder="Enter elements separated by coma">
+            <button onclick="inputArrayElements()" class="btn">Submit</button>
+        </div>
+    </div>
+    <div id="output" class="container" style="display: none;">
+        <h2>Array:</h2>
+        <div id="arrayDisplay"></div>
+        <label for="insertIndex">Enter the index for insertion:</label>
+        <input type="number" id="insertIndex" placeholder="Enter index">
+        <label for="insertValue">Enter the value to insert:</label>
+        <input type="number" id="insertValue" placeholder="Enter value">
+        <button onclick="insertElement()" class="btn">Insert</button>
+        <label for="deleteIndex">Enter the index for deletion:</label>
+        <input type="number" id="deleteIndex" placeholder="Enter index">
+        <button onclick="deleteElement()" class="btn">Delete</button>
+    </div>
+</div>
+<section>
+    <footer class="bottom">
+ 
+  <div class="pagecontrol"> 
+    <a href="home.html"><button class="btnx">Home</button></a>
+    <a href="home.html"><button class="btnx">Previous</button></a>
+    <a href="linearsearch.html"><button class="btnx">Next</button></a>
+  </div></footer>
+</section>
+    <script src="js/insertion.js"></script>
+</body>
+</html>

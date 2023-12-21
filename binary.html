@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Binary Search</title>
+  <link rel="stylesheet" type="text/css" href="css/binarysearch.css">
+</head>
+<body>
+  <div class="hero">
+    <h1>Binary Search</h1>
+    <p>Binary search is a highly efficient algorithm used to search for a specific element in a sorted array.<br> It works by repeatedly dividing the search interval in half, narrowing down the search range with each comparison. This method allows for significantly faster search times compared to linear search.</p>
+    <p>Enter a number to search for:</p>
+    <input type="number" id="searchInput" class="input">
+    <button onclick="binarySearch()" class="btn">Search</button>
+    <p id="result"></p>
+    <p id="sortedArray"></p>
+    <p>Enter sorted numbers (comma-separated) to create the array:</p>
+    <input type="text" id="arrayInput" class="input">
+    <button onclick="createArray()" class="btn">Create Array</button>
+    <a href="binary.html"><button class="btn">Refresh</button></a>
+  </div>
+  
+  <section>
+    <footer class="bottom">
+      <div class="pagecontrol">
+        <a href="home.html"><button class="btnx">Home</button></a>
+        <a href="linearsearch.html"><button class="btnx">Previous</button></a>
+        <a href="sorting.html"><button class="btnx">Next</button></a>
+      </div>
+    </footer>
+  </section>
+  <script src="js/binarysearch.js"></script>
+</body>
+</html>

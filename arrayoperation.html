@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Manipulation</title>
+    <link rel="stylesheet" href="css/arrayoperation.css">
+</head>
+<body>
+<div class="hero">
+    
+    <div class="container">
+        <h1>Array Operation</h1>
+        <p>Array manipulation is a fundamental concept in computer science and programming. It involves various operations on arrays, such as inserting, deleting, and updating elements within the array. This page provides a simple interface to perform these operations on an array.</p>
+        
+        <label for="size">Enter the size of the array:</label>
+        <input type="number" id="size" placeholder="Enter size">
+        <button onclick="inputArraySize()" class="btn">Submit</button>
+        <div id="inputElements" style="display: none;">
+            <label for="elements">Enter elements:</label>
+            <input type="text" id="elements" placeholder="Enter elements separated by comma">
+            <button onclick="inputArrayElements()" class="btn">Submit</button>
+        </div>
+    </div>
+    <div id="output" class="container" style="display: none;">
+        <h2>Array:</h2>
+        <div id="arrayDisplay"></div>
+        <label for="insertIndex">Enter the index for insertion:</label>
+        <input type="number" id="insertIndex" placeholder="Enter index">
+        <label for="insertValue">Enter the value to insert:</label>
+        <input type="number" id="insertValue" placeholder="Enter value">
+        <button onclick="insertElement()" class="btn">Insert</button>
+        <label for="deleteIndex">Enter the index for deletion:</label>
+        <input type="number" id="deleteIndex" placeholder="Enter index">
+        <button onclick="deleteElement()" class="btn">Delete</button>
+        <label for="updateIndex">Enter the index for update:</label>
+        <input type="number" id="updateIndex" placeholder="Enter index">
+        <label for="updateValue">Enter the new value:</label>
+        <input type="number" id="updateValue" placeholder="Enter value">
+        <button onclick="updateElement()" class="btn">Update</button>
+    </div>
+</div>
+<section>
+    <footer class="bottom">
+        <div class="pagecontrol"> 
+            <a href="home.html"><button class="btnx">Home</button></a>
+            <a href="home.html"><button class="btnx">Previous</button></a>
+            <a href="binary.html"><button class="btnx">Next</button></a>
+        </div>
+    </footer>
+</section>
+<script src="js/arrayoperation.js"></script>
+</body>
+</html>

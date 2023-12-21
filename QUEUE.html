@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/c_queue.css">
+    <title>Circular Queue System - Enqueue</title>
+</head>
+
+<body>
+    <main>
+        <div class="hero">
+            <section class="up">
+                <h2>Circular Queue System</h2>
+                <p>A Circular Queue is a data structure that operates in a circular manner.<br> Elements are stored in a circular queue with a fixed size, and when the queue is full,<br> new elements are added at the beginning if space is available.<br> This efficient data structure is commonly used for various applications.</p>
+            </section>
+
+            <section class="heross">
+                <form id="enqueue-form" class="form">
+                    <label for="element">Enter Element:</label>
+                    <input type="text" id="element" name="element" required class="input">
+                    <button type="submit" class="btn">Enqueue</button>
+                </form>
+
+                <form id="dequeue-form" class="form">
+                    <button type="submit" class="btn">Dequeue</button>
+                </form>
+            </section>
+
+            <div class="queue-status">
+                <p>Front Element: <span id="front-element">Empty</span></p>
+                <p>Rear Element: <span id="rear-element">Empty</span></p>
+                <p>Queue Tokens: <span id="queue-elements">Empty</span></p>
+            </div>
+            <section class="below">
+                <a href="QUEUE.html"><button class="btn">Refresh</button></a>
+            </section>
+        </div>
+    </main>
+
+    <footer class="bottom">
+        <div class="pagecontrol">
+            <a href="home.html"><button class="btnx">Home</button></a>
+            <a href="linearqueue.html"><button class="btnx">Previous</button></a>
+            <a href="#"><button class="btnx">Next</button></a>
+        </div>
+    </footer>
+    <script src="js/cc-qscript.js"></script>
+</body>
+
+</html>

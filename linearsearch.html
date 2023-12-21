@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Linear Search</title>
+  <link rel="stylesheet" type="text/css" href="css/linearsearch.css">
+</head>
+<body>
+  <div class="hero">
+    <h1>Linear Search</h1>
+    <p>Linear search is a basic searching algorithm that checks every element in a list or array for a specific value. <br>It starts at the beginning and checks each element one by one until a match is found or the end of the list is reached.</p>
+    <p>Enter a number to search for:</p>
+    <input type="number" id="searchInput" class="search_form">
+    <button onclick="linearSearch()" class="btn">Search</button>
+    <p id="result"></p>
+
+    <p>Enter numbers (comma-separated) to create the array:</p>
+    <input type="text" id="arrayInput" class="array_form">
+    <button onclick="createArray()" class="btn">Create Array</button>
+
+    <a href="linearsearch.html"><button class="btn">Refresh</button></a>
+  </div>
+
+  <section>
+    <footer class="bottom">
+      <div class="pagecontrol">
+        <a href="home.html"><button class="btnx">Home</button></a>
+        <a href="arrayoperation.html"><button class="btnx">Previous</button></a>
+        <a href="binary.html"><button class="btnx">Next</button></a>
+      </div>
+    </footer>
+  </section>
+</body>
+<script src="js/linearsearch.js"></script>
+</html>

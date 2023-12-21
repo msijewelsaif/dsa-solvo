@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #40e0d0;
+}
+
+.hero {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    border: 1px solid black;
+    width: 700px;
+    max-width: 90%;
+    padding: 20px;
+    background-color: #40e0d0;
+}
+
+.container {
+    margin: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"],
+input[type="text"] {
+    width: 100%;
+    max-width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: greenyellow;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.btn:hover {
+    background-color: white;
+}
+
+#output {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    display: none;
+}
+
+#arrayDisplay {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.bottom {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    border: 2px solid black;
+    width: 100%;
+    max-width: 700px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0ffff;
+}
+
+.btnx {
+    background-color: #e0ffff;
+    height: 35px;
+    width: 100px;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.btnx:hover {
+    background-color: red;
+}

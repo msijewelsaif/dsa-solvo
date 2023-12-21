@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #40e0d0;
+}
+
+/* Set the font color for the text inside the body */
+body {
+    color: #333; /* Dark gray text color */
+}
+
+/* Style the hero section for better visibility */
+.hero {
+    padding: 2rem;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Center the content in the hero section */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Style your H1 element */
+h1 {
+    font-size: 2rem;
+    color: #0074e4; /* Blue title text color */
+}
+
+/* Style the input and buttons */
+.stack-operations input[type="number"] {
+    padding: 0.5rem;
+    border: none;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    background-color: #0074e4; 
+    color: #fff; 
+    border: none;
+    cursor: pointer;
+    margin: 0.5rem;
+}
+
+.output {
+    margin-top: 1rem;
+}
+
+
+.bottom {
+    text-align: center;
+    background-color: #40e0d0 
+    color : #fff ; 
+    padding : 1rem;
+}
+
+/* Style your page control buttons */
+.pagecontrol a {
+    text-decoration: none;
+}
+
+.btnx {
+    padding: 0.5rem 1rem;
+    background-color: #0074e4; /* Blue button background color */
+    color: #fff; /* White button text color */
+    border: none;
+    cursor: pointer;
+    margin: 0.5rem;
+}
